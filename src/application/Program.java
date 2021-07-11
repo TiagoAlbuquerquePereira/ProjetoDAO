@@ -31,6 +31,11 @@ public class Program {
 			System.out.println(seller2);
 		}
 
+		System.out.println("\n---Teste 4: Inset---");
+		Seller seller3 = new Seller(null, "Bio", "bio@gmail.com", new Date(), (double) 3000, department);
+		sellerDao.insert(seller3);
+		System.out.println("New seller: " + seller3.getId());
+
 	}
 
 }
