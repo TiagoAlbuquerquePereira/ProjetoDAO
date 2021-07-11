@@ -32,7 +32,7 @@ public class Seller implements Serializable {
 	}
 
 	public void setId(Integer id) {
-		id = id;
+		this.id = id;
 	}
 
 	public String getName() {
