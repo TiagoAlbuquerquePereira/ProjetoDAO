@@ -36,6 +36,12 @@ public class Program {
 		sellerDao.insert(seller3);
 		System.out.println("New seller: " + seller3.getId());
 
+		System.out.println("\n---Teste 5: Update---");
+		seller = sellerDao.findById(2);
+		seller.setName("Tiago Albuquerque");
+		sellerDao.update(seller);
+		System.out.println("Atualização concluída");
+
 	}
 
 }
