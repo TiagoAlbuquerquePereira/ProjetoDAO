@@ -42,6 +42,9 @@ public class Program {
 		sellerDao.update(seller);
 		System.out.println("Atualização concluída");
 
+		System.out.println("\n---Teste 6: Delete---");
+		sellerDao.deleteById(7);
+		System.out.println("Remoção realizada com sucesso!");
 	}
 
 }
